@@ -1,0 +1,36 @@
+#form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-text{
+    height: 3em;
+    width: 20em;
+}
+.body{
+    height: 100vh;
+    background-color: #6A8D92;
+}
+.containeR{
+     /* From https://css.glass */
+background: rgba(13, 75, 201, 0.26);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7px);
+-webkit-backdrop-filter: blur(7px);
+border: 1px solid rgba(255, 255, 255, 0.45);
+    margin-left: 10%;
+    width: 30em;
+}
+.row{
+   
+    padding-left: 2.5em;
+    margin: 1em;
+}
+.btn-update{
+    width: 80%;
+}
+.edit{
+    margin-left: 4em;
+}

@@ -44,42 +44,42 @@ const Edit = ({ id }) => {
           <div className='fs-4 edit'>Edit Form</div>
 
           <div className='col-12 form-floating'>
-            <input type='text' className='form-text form-control' id='floatingInput' value={editData.name} name='name' placeholder='Name' onChange={handlechange} />
+            <input type='text' className='form-text form-control' id='floatingInput' value={editData.name} name='name' placeholder='Name' onChange={handlechange}  required/>
             <label className='ms-2' for='floatingInput'>Name</label>
           </div>
           <div className='col-12 form-floating'>
 
-            <input type='text' className='form-text form-control' value={editData.email} name='email' placeholder='E-mail' onChange={handlechange} />
+            <input type='text' className='form-text form-control' value={editData.email} name='email' placeholder='E-mail' onChange={handlechange}  required/>
             <label className='ms-2' for='floatingInput'>E-mail</label>
 
           </div>
           <div className='col-12  form-floating'>
 
-            <input type='text' className='form-text form-control' id='floatingInput' value={editData.address_street} placeholder='Street' name='address.street' onChange={handlechange} />
+            <input type='text' className='form-text form-control' id='floatingInput' value={editData.address_street} placeholder='Street' name='address.street' onChange={handlechange}  required/>
             <label className='ms-2' for='floatingInput'>Street</label>
 
           </div>
           <div className='col-12 form-floating'>
 
-            <input type='text' className='form-text form-control' id='floatingInput' value={editData.address_city} placeholder='City' name='address.city' onChange={handlechange} />
+            <input type='text' className='form-text form-control' id='floatingInput' value={editData.address_city} placeholder='City' name='address.city' onChange={handlechange} required />
             <label className='ms-2' for='floatingInput'>City</label>
 
           </div>
           <div className='col-12 form-floating'>
 
-            <input type='text' className='form-text form-control' id='floatingInput' value={editData.address_zipcode} placeholder='Pincode' name='address.zipcode' onChange={handlechange} />
+            <input type='text' className='form-text form-control' id='floatingInput' value={editData.address_zipcode} placeholder='Pincode' name='address.zipcode' onChange={handlechange} required />
             <label className='ms-2' for='floatingInput'>Pincode</label>
 
           </div>
           <div className='col-12 form-floating'>
 
-            <input type='text' className='form-text form-control' id='floatingInput' value={editData.phone} name='phone' placeholder='Phone' onChange={handlechange} />
+            <input type='text' className='form-text form-control' id='floatingInput' value={editData.phone} name='phone' placeholder='Phone' onChange={handlechange}  required/>
 
             <label className='ms-2' for='floatingInput'>Phone</label>
           </div>
           <div className='col-12 form-floating'>
 
-            <input type='text' className='form-text form-control' id='floatingInput' value={editData.company_name} placeholder='Company Name' name='company_name' onChange={handlechange} />
+            <input type='text' className='form-text form-control' id='floatingInput' value={editData.company_name} placeholder='Company Name' name='company_name' onChange={handlechange}  required/>
             <label className='ms-2' for='floatingInput'>Company Name</label>
 
           </div>
